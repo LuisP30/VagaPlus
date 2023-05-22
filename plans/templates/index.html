@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ico/pageicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <style type="text/css">
+        /*O CSS interno está aplicando estilo apenas nos elementos que contém nesta página em especial*/
+        .box-info
+        {
+            display: flex;
+            margin-left: 13%;
+            gap: 4%;
+            user-select: none;
+        }
+        .info
+        {
+            /*background-color: #B7E1E4;*/
+            background-color: lightgrey;
+            /*color: #5DBCC2;*/
+            color: grey;
+            font-weight: bold;
+            font-size: x-large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-bottom: 4%;
+            margin-top: 12%;
+            min-width: 40%;
+            min-height: 15%;
+            max-width: 40%;
+            max-height: 15%;
+            padding: 1%;
+            border-radius: 14px;
+            box-shadow: 10px 10px 10px #6B6B6B;
+            text-align: center;
+            cursor: context-menu;
+        }
+        /*Início de configuração de cards*/
+        .box-card
+        {
+            display: flex;
+            margin-top: 2%;
+            gap: 4%;
+            text-align: center;
+            margin-left: 13%;
+  
+        }
+        .card
+        {
+            min-width: 17%;
+            max-width: 17%;
+            min-height: 15%;
+            max-height: 15%;
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+            border-radius: 14px;
+            box-shadow: 0px 10px 15px #6B6B6B;
+            padding: 1%;
+            cursor: pointer;
+            transition: all 1s;
+            
+        }
+        .card:hover
+        {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1) translateZ(0);
+
+        }
+        .card figure
+        {
+            margin-bottom: 5%;
+        }
+        .card p
+        {
+            font-size: smaller;
+            margin-top: 5%;
+        }
+        /*Fim de configurações de cards*/
+        button
+        {
+            margin-top: 5%;
+            margin-left: 43%;
+            min-width: 17%;
+            max-width: 25%;
+            min-height: 7%;
+            max-height: 8%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: white;
+            background-color: #1368CA;
+            outline: none;
+            font-size: 105%;
+            border-style: none;
+            border-radius: 5px;
+            box-shadow: 0px 10px 15px gray;
+            cursor: pointer;
+        }
+        button:hover
+        {
+            background-color: #167DF2;
+        }
+    </style>
+    <title>Vaga Plus</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logotipo.png" alt="Logotipo do estacionamento" width="70px" height="70px">
+            <h1>Vaga Plus</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Planos e preços</li>
+                <li>Meu espaço</li>
+            </ul>
+        </nav>
+        <div class="login">
+            <p>Login</p>
+            <img src="img/login.png" alt="Ícone de login" width="15px" height="15px">
+        </div>
+    </header>
+    <main>
+        <div class="box-info">
+            <div class="info">
+                <p>O uso de veículos nas grandes metrópoles só cresce e consequentemente a necessidade de locais seguros para estacionar também.</p>
+            </div>
+            <div class="info">
+                <p>Mais de mil estacionamentos esperando<br>pelo seu carro.<br>Seja na faculdade ou no trabalho.</p>
+            </div>        
+        </div>
+        <div class="box-card">
+            <div class="card">
+                <figure>
+                    <img src="img/acessibilidade.png" alt="" width="90px" height="100px">
+                </figure>
+                <h4>Acessibilidade</h4>
+                <p>Presente nas maiores metrópoles do país, nosso estacionamento tem uma ótima acessibilidade para os clientes.</p>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/seguranca.png" alt="" width="90px" height="100px">
+                </figure>
+                <h4>Segurança</h4>
+                <p>Não basta disponibilizar um bom serviço de estacionamento.<br>Para nós é fundamental garantir a segurança do seu veículo.</p>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/planos.png" alt="" width="90px" height="100px">
+                </figure>
+                <h4>Planos</h4>
+                <p>Temos excelentes planos com um ótimo custo benefício.<br>Vaga Plus pode se tornar sua garagem.</p>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="img/excelencia.png" alt="" width="90px" height="100px">
+                </figure>
+                <h4>Excelência</h4>
+                <p>Somos a maior rede de estacionamentos do Brasil, presente nos melhores empreendimentos.</p>
+            </div>
+        </div>
+        <button>Faça sua reserva</button>
+    </main>
+    <footer>
+        <section class="section-footer">
+            <div class="contato">
+                <p>INFORMAÇÕES DE CONTATO</p> <br>
+                <small>vagaplus@gmail.com</small>
+           </div>
+           <div class="suporte">
+                <p>DESENVOLVIMENTO E SUPORTE</p> <br>
+                <ul>
+                  <li><small>pimenta.lh2@gmail.com</small></li>
+                   <li><small>+55 84 99460-4741</small></li>
+                   <li><small>CEP. 59190-000</small></li>
+                   <li><small><a href="https://www.flaticon.com/br/icones-gratis/carro" title="carro ícones">Logotipo criado por Freepik - Flaticon</a></small></li>
+                </ul>     
+           </div>
+           <div class="redes">
+
+           </div>
+        </section>
+        <div class="region-footer">
+            <small>&copy; 2023 Vaga Plus | - Nenhum direito reservado.</small>
+        </div>
+    </footer>
+</body>
+</html>
